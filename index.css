@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+body {
+    font-family: 'Calistoga', cursive;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    margin: 0 150px;
+}
+
+.container-black {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    padding: 10px 0 5px 150px;
+    background-color: black;
+    color: white;
+}
+
+.header-nav {
+    position: sticky;
+    top: 0px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+}
+
+header nav ul li {
+    padding-right: 18px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
